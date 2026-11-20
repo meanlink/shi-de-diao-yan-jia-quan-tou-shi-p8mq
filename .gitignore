@@ -32,3 +32,7 @@ target/
 *.o
 *.obj
 .DS_Store
+# 本地隔离 Python 依赖与测试数据库（非容器构建产物）
+.pydeps/
+*.db
+local.db
